@@ -1,5 +1,5 @@
 {
-  "name": "network-manager",
+  "name": "networkmanager-node",
   "version": "0.0.1",
   "description": "NodeJS wrapper for network-manager",
   "main": "index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/voor/network-manager.git"
+    "url": "git+https://github.com/voor/networkmanager-node.git"
   },
   "keywords": [
     "wifi",
@@ -29,9 +29,9 @@
   "author": "Robert Van Voorhees",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/voor/network-manager/issues"
+    "url": "https://github.com/voor/networkmanager-node/issues"
   },
-  "homepage": "https://github.com/voor/network-manager#readme",
+  "homepage": "https://github.com/voor/networkmanager-node#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
