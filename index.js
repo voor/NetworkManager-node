@@ -1,5 +1,3 @@
-import NetworkManager from './lib/networkManager';
-
-const networkManager = new NetworkManager();
+import networkManager from './lib/networkManager';
 
 networkManager.list().then(networks => console.log(networks));

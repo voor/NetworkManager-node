@@ -9,7 +9,7 @@
     "precommit": "lint-staged",
     "prepush": "npm run test",
     "start": "babel-node index.js",
-    "test": "mocha test/**/**.spec.js"
+    "test": "mocha --recursive --require babel-register test/**/**.spec.js"
   },
   "lint-staged": {
     "*.js": [
